@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.8.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+</head> 
+<body >
+    
+  <section class="flex justify-center items-center h-screen " style="background-image: url('./img/bg.jpg'); background-repeat:no-repeat; background-position: center;background-size: cover;">
+    <div class=" place-content-stretch grid grid-flow-col gap-5 text-center auto-cols-max">
+        <div id="countdown" class="bg-slate-400 rounded-2xl flex flex-col" >
+          <span id="days" class="countdown font-mono text-7xl">
+            <span style="--value:15;"></span>
+          </span>
+          days
+        </div> 
+        <div class=" bg-slate-400 rounded-2xl flex flex-col">
+          <span id="hours" class="countdown font-mono text-7xl">
+            <span style="--value:10;"></span>
+          </span>
+          hours
+        </div> 
+        <div class=" bg-slate-400 rounded-2xl flex flex-col">
+          <span class="countdown font-mono text-7xl">
+            <span class="minutes" style="--value:24;"></span>
+          </span>
+          min
+        </div> 
+        <div class="bg-slate-400 rounded-2xl flex flex-col">
+          <span id="secend" class="countdown font-mono text-7xl">
+            <span style="--value:54;"></span>
+          </span>
+          sec
+        </div>
+      </div>
+  </section>
+    
+</body>
+<script src="app.js"></script>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div class="max-w-screen" >
+    
+  
+    <img class=" box-border object-fill h-screen w-full" src="./img/bg.jpg" alt="">
+
+  
+ </div> -->
